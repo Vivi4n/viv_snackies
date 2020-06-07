@@ -8,12 +8,8 @@ server_scripts {
         'server/server.lua'
 }
 
-client_scripts {
-        'client/client.lua'
-}
-
 dependencies {
-    'es_extended',
+    '@es_extended',
     'esx_status',
     'esx_basicneeds',
     'esx_optionalneeds'
