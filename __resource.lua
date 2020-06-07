@@ -9,6 +9,11 @@ server_scripts {
         'server/server.lua'
 }
 
+client_scripts {
+        '@es_extended/locale.lua',
+        'locales/en.lua'
+}
+
 dependencies {
     'es_extended',
     'esx_status',
