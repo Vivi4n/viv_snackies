@@ -9,7 +9,7 @@ server_scripts {
 }
 
 dependencies {
-    '@es_extended',
+    'es_extended',
     'esx_status',
     'esx_basicneeds',
     'esx_optionalneeds'
