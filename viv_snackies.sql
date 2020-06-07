@@ -2,7 +2,7 @@ INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES
         ('burger', 'Burger', 160, 0, 1),
         ('pizza', 'Pizza', 150, 0, 1),
         ('chips', 'Chips', 80, 0, 1),
-        ('friedchicken', 'Fried chicken', 80, 0, 1),
+        ('fried_chicken', 'Fried chicken', 80, 0, 1),
         ('donut', 'Donut', 40, 0, 1),
         ('hotdog', 'Hot Dog', 160, 0, 1),
         ('monster', 'Monster', 150, 0, 1),
