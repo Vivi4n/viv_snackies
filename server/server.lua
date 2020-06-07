@@ -34,7 +34,7 @@ ESX.RegisterUsableItem('chips', function(source)
 end)
 
 -- Fried Chicken
-ESX.RegisterUsableItem('fried_chicken'), function(source)
+ESX.RegisterUsableItem('fried_chicken', function(source)
     local xPlayer = ESX.GetPlayerFromId(source)
     xPlayer.removeInventoryItem('fried_chicken', 1)
     TrigerClientEvent('esx_status:add', source 'hunger', 200000)
@@ -43,7 +43,7 @@ ESX.RegisterUsableItem('fried_chicken'), function(source)
 end)
 
 -- Donut
-ESX.RegisterUsableItem('donut'), function(source)
+ESX.RegisterUsableItem('donut', function(source)
     local xPlayer = ESX.GetPlayerFromId(source)
     xPlayer.removeInventoryItem('donut', 1)
     TrigerClientEvent('esx_status:add', source 'hunger', 150000)
@@ -52,7 +52,7 @@ ESX.RegisterUsableItem('donut'), function(source)
 end)
 
 -- Hotdog
-ESX.RegisterUsableItem('hotdog'), function(source)
+ESX.RegisterUsableItem('hotdog', function(source)
     local xPlayer = ESX.GetPlayerFromId(source)
     xPlayer.removeInventoryItem('hotdog', 1)
     TrigerClientEvent('esx_status:add', source 'hunger', 150000)
