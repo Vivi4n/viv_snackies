@@ -3,6 +3,7 @@ Locales['en'] = {
     ['used_pizza'] = 'You ate 1x ~y~Pizza~s~',
     ['used_chips'] = 'You ate some ~y~Chips~s~',
     ['used_fried_chicken'] = 'You ate some ~y~Fried chicken~s~',
+    ['used_donut'] ='You ate a ~y~Donut~s~',
     ['used_monster'] = 'You drank a ~y~Monster~s~',
     ['used_redbull'] = 'You drank a ~y~Redbull~s~',
     ['used_icedtea'] = 'You drank an ~y~Iced tea~s~',
